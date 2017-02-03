@@ -1,0 +1,141 @@
+html {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#navbar {
+    background-color: #000000;
+    clear: both;
+    text-align: center;
+    padding: 2px;
+}
+
+#navbar li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navbar a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+#left {
+    width: 59%;
+    float: left;
+}
+
+#imageright {
+    width: 39%;
+    float: right;
+}
+
+#indexinfo {
+    width: 49%;
+    float: right;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+#navbar1 {
+    background-color: #000000;
+    clear: both;
+    text-align: center;
+    padding: 2px;
+}
+
+#navbar1 li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navbar1 a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+#equation {
+    width: 95%;
+    border: 1px solid black;
+}
+
+.fraction {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+
+.fraction>span {
+    display: block;
+    padding-top: 0.15em;
+}
+
+.fraction span.fdn {
+    border-top: thin solid black;
+}
+
+.fraction span.bar {
+    display: none;
+}
+
+git init git add -A git commit -m "update" git remote add origin https: //github.com/SniparsZach/whattsyournumber-chem.git
+git checkout -b gh-pages git push -u origin gh-pages
