@@ -52,6 +52,12 @@ body {
     float: right;
 }
 
+#center {
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+}
+
 #indexinfo {
     width: 49%;
     float: right;
